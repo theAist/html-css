@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 007</title>
+    <style>
+        body {
+            background-color: #d3a8d3;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <hr>
+    <p>Você está vendo a imgagem completa? Experimente mudar o tamanho
+        da janela do navegador para aproveitar melhor a experiência! &#x1F60A;</p>
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/imagem-p.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.jpg" type="image/jpg">
+        <img src="imagens/imagem-g.jpg" alt="imagem flexivel">
+    </picture>
+</body>
+</html>
