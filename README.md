@@ -61,7 +61,7 @@ Posição | Nome | Nota
 Usa-se o \: e o nome do emoji: 🦒;
 _para mais emojis, acessar esse [Repositório](https://github.com/ikatyang/emoji-cheat-sheet)._
 
-Usa-se a "\" antes do símbolo para eliminar a formatação;
+Usa-se a " \ " antes do símbolo para eliminar a formatação;
 
 ### Menções
 
